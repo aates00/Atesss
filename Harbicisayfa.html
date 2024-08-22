@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AteşTekel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            text-align: center;
+            margin-top: 1em;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff6347;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+        section {
+            background-color: white;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+        }
+        .about h2, .products h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+        .about p {
+            font-size: 1.1em;
+            color: #666;
+            line-height: 1.6;
+        }
+        .products .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 1em;
+            padding: 1em;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+        .product-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .product-item h2 {
+            color: #333;
+            font-size: 1.5em;
+            margin: 0.5em 0;
+        }
+        .product-item p {
+            color: #666;
+            margin-bottom: 1em;
+        }
+        .product-item .price {
+            color: #ff6347;
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+        .product-item a {
+            display: inline-block;
+            background-color: #ff6347;
+            color: white;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .product-item a:hover {
+            background-color: #e5533d;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+            margin-top: 2em;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #ff6347;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AteşTekel</h1>
+        <nav>
+            <a href="#about">Hakkımda</a>
+            <a href="#products">Ürünler</a>
+            <a href="https://www.instagram.com/aates00?igsh=MWZpM25uejB6YmplNQ==" target="_blank">Instagram</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Hakkımda</h2>
+            <p>Merhaba, ben Ateş. E-Ticaret ve çevrimiçi satış stratejileri konusunda uzmanım. Basit, kullanıcı dostu ve estetik web sayfaları oluşturmak en büyük tutkum.</p>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Ürünler</h2>
+            <div class="product">
+                <!-- Sarı Tuborg Ürünü -->
+                <div class="product-item">
+                    <img src="https://www.yenibir.com/wp-content/uploads/2020/08/tuborg-sari-500ml-urun-700x700.png" alt="Sarı Tuborg">
+                    <h2>Sarı Tuborg</h2>
+                    <p>İçimi hafif, tadı yumuşak Sarı Tuborg.</p>
+                    <p class="price">₺80</p>
+                    <a href="#">Satın Al</a>
+                </div>
+                <!-- Amsterdam Ürünü -->
+                <div class="product-item">
+                    <img src="https://www.yenibir.com/wp-content/uploads/2021/01/amsterdam-500-ml-l-700x700.png" alt="Amsterdam">
+                    <h2>Amsterdam</h2>
+                    <p>İçimi sert ve tadı yumuşak olan, sarıdan 2 kat daha etkili Hollanda birası.</p>
+                    <p class="price">₺100</p>
+                    <a href="#">Satın Al</a>
+                </div>
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/300" alt="Ürün 3">
+                    <h2>Ürün 3</h2>
+                    <p>Kısa açıklama metni. Bu ürün hakkında kısa bir bilgi verin.</p>
+                    <p class="price">₺200</p>
+                    <a href="#">Satın Al</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 AteşTekel. Tüm hakları saklıdır.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/aates00?igsh=MWZpM25uejB6YmplNQ==" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
